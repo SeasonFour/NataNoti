@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_login" tools:context="nata.fragz.com.natanoti.Login"
+    android:background="#F3E5F5">
+    <TextView
+        android:id="@+id/txt_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#263238"
+        android:fontFamily="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Google +"
+        android:id="@+id/button"
+        android:layout_below="@+id/txt_logo"
+        android:layout_marginTop="108dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#FFD04737"
+        android:focusableInTouchMode="false"
+        android:fontFamily="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Facebook"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:background="#ff3b57a4"
+        android:textColor="#ffffff"
+        android:fontFamily="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:text="Twitter"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:textColor="#ffffff"
+        android:fontFamily="serif"
+        android:background="#ff408fcc" />
+
+
+</RelativeLayout>
