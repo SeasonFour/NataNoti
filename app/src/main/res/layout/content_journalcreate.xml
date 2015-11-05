@@ -19,7 +19,19 @@
         android:hint="Input with char counter"
         app:et_inputId="@+id/textfield_et_char_counter_input"
         app:et_supportMode="charCounter"
-        app:et_supportMaxChars="20"
+        app:et_supportMaxChars="50"
         />
+
+    <com.rey.material.widget.EditText
+        android:id="@+id/textfield_et_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Input with label"
+        app:et_inputId="@+id/textfield_et_label_input"
+        app:et_supportMode="none"
+        android:layout_below="@+id/textfield_et_char_counter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
