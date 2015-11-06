@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="88a6346382185deaeb9e3cc7d89717bc67d2fb16">
+        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-dd45bc359fc3dfff84ad5f7e982a75243423d837.jar" />
+    </item>
+
+</items>

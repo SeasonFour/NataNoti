@@ -2341,7 +2341,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446811847941</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished appintro2">
+      <created>1446812281934</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1446812281934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2390,7 +2396,8 @@
     <MESSAGE value="Finished java class for the tab layout for the journal" />
     <MESSAGE value="Linked tab layout with fragment" />
     <MESSAGE value="Finished appintro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished appintro" />
+    <MESSAGE value="Finished appintro2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished appintro2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
