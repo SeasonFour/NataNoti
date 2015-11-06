@@ -2,7 +2,4 @@
     <string name="app_name">NataNoti</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
-    <string name="title_activity_natahome">Natahome</string>
-    <string name="lorem_ipsum">Natahome</string>
-    <string name="title_activity_journalcreate">Journalcreate</string>
 </resources>
