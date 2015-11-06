@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c65838b5-b333-4d5b-ae1e-56b4f3af9be7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/nata/fragz/com/natanoti/Journaladapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/nata/fragz/com/natanoti/Journalcarditem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NataNoti.iws" />
@@ -2316,7 +2314,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446752517927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added journal adapter and item class">
+      <created>1446776199271</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446776199271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2398,7 +2402,8 @@
     <MESSAGE value="adding nata home screen and floating action menus" />
     <MESSAGE value="added rey material library and journal class" />
     <MESSAGE value="added journal view base class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added journal view base class" />
+    <MESSAGE value="added journal adapter and item class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added journal adapter and item class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
