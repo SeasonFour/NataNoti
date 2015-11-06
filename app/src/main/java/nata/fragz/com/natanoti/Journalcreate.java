@@ -7,7 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.github.clans.fab.FloatingActionMenu;
+
 public class Journalcreate extends AppCompatActivity {
+
+    private FloatingActionMenu menu1;
+    private com.github.clans.fab.FloatingActionButton fab1;
+    private com.github.clans.fab.FloatingActionButton fab2;
+    private com.github.clans.fab.FloatingActionButton fab3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
