@@ -1,5 +1,6 @@
 package nata.fragz.com.natanoti;
 
+
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -19,9 +20,8 @@ public class Journal extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("Private"));
         tabLayout.addTab(tabLayout.newTab().setText("Public"));
-
+        tabLayout.addTab(tabLayout.newTab().setText("Private"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -47,4 +47,4 @@ public class Journal extends AppCompatActivity {
         });
     }
 
-    }
+}
