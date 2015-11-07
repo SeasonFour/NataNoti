@@ -5,4 +5,5 @@
     <string name="title_activity_natahome">Natahome</string>
     <string name="lorem_ipsum">Natahome</string>
     <string name="title_activity_journalcreate">Journalcreate</string>
+    <string name="title_activity_journal">Journal</string>
 </resources>
