@@ -1,14 +1,23 @@
 package nata.fragz.com.natanoti;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
+
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
+
+import com.github.clans.fab.FloatingActionButton;
+import com.github.clans.fab.FloatingActionMenu;
 
 public class Natahome extends AppCompatActivity {
 
+    private FloatingActionMenu menu1;
+    private FloatingActionButton fab1;
+    private FloatingActionButton fab2;
+    private FloatingActionButton fab3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,14 +25,32 @@ public class Natahome extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+
+        menu1 = (FloatingActionMenu)findViewById(R.id.menu1);
+        fab1 =(FloatingActionButton)findViewById(R.id.fab1);//Reminder
+        fab2 =(FloatingActionButton)findViewById(R.id.fab2);//View
+        fab3 =(FloatingActionButton)findViewById(R.id.fab3);//create new journal
+
+        fab1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                Snackbar.make(v, "Reminder dialog pop up",Snackbar.LENGTH_SHORT).setAction("Setup",null).show();
             }
         });
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(v,"Viewing saved journals",Snackbar.LENGTH_SHORT).setAction("Viewing",null).show();
+            }
+        });
+        fab3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent create= new Intent(Natahome.this,Journalcreate.class);
+                startActivity(create);
+            }
+        });
+
     }
 
 }

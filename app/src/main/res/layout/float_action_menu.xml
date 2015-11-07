@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
 
             fab:fab_size="mini"
-            fab:fab_label="Menu item 1" />
+            fab:fab_label="Reminder" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab2"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
 
             fab:fab_size="mini"
-            fab:fab_label="Menu item 2" />
+            fab:fab_label="View" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab3"

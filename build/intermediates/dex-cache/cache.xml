@@ -2,88 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.github.rey5137/material/1.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0040be6592cbfbb19a2c1e90a759278795ed2280">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-73decc8588d911d7ec1d810e9233201c8ec22114.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ca504182198db4a0f81779ca3fe391374c8cb66a">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-8c6596071eb6d5b8673133cc9c1a27648161fcce.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-96d752ca9e7a3a3fffd99891b068e97eb1674d8e.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-9685c1de44cc32821d4c3f5282b72ccbcd419987.jar" />
-    </item>
-    <item
-        jar="/home/hulk/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-fdb44b74387e1488ab0d9552a654e77fe35d739a.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-bb8e30d13cb1afb7d9151756e4d49bbdd9afcb93.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-f7e66042ae32a875dcdb8ca9fea669706331f792.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-f06a36ec92eeea2c2fe06200cb69adb337690cc6.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-822ce4f1237bfe4a91f5f76a948b45d19c66ae6e.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.2.0/jars/classes.jar"
+        jar="/home/bill/Desktop/Classwork/Nata/NataNoti/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/3.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="88a6346382185deaeb9e3cc7d89717bc67d2fb16">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-dd45bc359fc3dfff84ad5f7e982a75243423d837.jar" />
-    </item>
-    <item
-        jar="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/classes-c27f2ef453253e6bd213d45b7e9ad7991d28e887.jar" />
-    </item>
-    <item
-        jar="/home/hulk/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/home/hulk/AndroidStudioProjects/NataNoti/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-d1b7b722bd62257503e4455dfc3578166810107e.jar" />
+        <dex dex="/home/bill/Desktop/Classwork/Nata/NataNoti/app/build/intermediates/pre-dexed/debug/classes-f3df123114b79d09e98dd3b2f1bd152fa35d7482.jar" />
     </item>
 
 </items>

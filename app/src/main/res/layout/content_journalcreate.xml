@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:inputType="textMultiLine"
-        android:hint="Input with char counter"
+        android:hint="Title..."
         app:et_inputId="@+id/textfield_et_char_counter_input"
         app:et_supportMode="charCounter"
         app:et_supportMaxChars="50"
@@ -27,10 +27,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
-        android:hint="Input with label"
+        android:hint="Compose..."
         app:et_inputId="@+id/textfield_et_label_input"
         app:et_supportMode="none"
         android:layout_below="@+id/textfield_et_char_counter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/button_bt_flat"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bt_height"
+        android:layout_weight="0.4"
+        android:text="Save journal"
+        android:textColor="@color/colorJournalSave"
+        android:background="@color/colorJournalbtnSave"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

@@ -42,14 +42,14 @@ public class Appintro extends AppIntro {
     @Override
     public void onSkipPressed() {
         // Do something when users tap on Skip button.
-        Intent skip = new Intent(Appintro.this,Journal.class);
+        Intent skip = new Intent(Appintro.this,Journalcreate.class);
         startActivity(skip);
     }
 
     @Override
     public void onDonePressed() {
         // Do something when users tap on Done button.
-        Intent done = new Intent(Appintro.this,Journal.class);
+        Intent done = new Intent(Appintro.this,Journalcreate.class);
         startActivity(done);
     }
 }
