@@ -49,7 +49,8 @@ public class Natahome extends AppCompatActivity {
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(v,"Viewing saved journals",Snackbar.LENGTH_SHORT).setAction("Viewing",null).show();
+                Intent view = new Intent(Natahome.this,Journal.class);
+                startActivity(view);
             }
         });
         fab3.setOnClickListener(new View.OnClickListener() {
