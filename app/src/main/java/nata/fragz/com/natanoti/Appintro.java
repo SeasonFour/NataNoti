@@ -19,8 +19,8 @@ public class Appintro extends AppIntro {
 
         // Instead of fragments, you can also use our default slide
         // Just set a title, description, background and image. AppIntro will do the rest
-        addSlide(AppIntroFragment.newInstance("title", "description", R.drawable.genge3, Color.parseColor("#3F51B5")));
-        addSlide(AppIntroFragment.newInstance("title", "description", R.drawable.genge3, Color.parseColor("#3F51B5")));
+        addSlide(AppIntroFragment.newInstance("Journal", "A place to save your journals", R.drawable.genge3, Color.parseColor("#3F51B5")));
+        addSlide(AppIntroFragment.newInstance("Secure data", "Your data is secure stored on the cloud", R.drawable.genge3, Color.parseColor("#3F51B5")));
         addSlide(AppIntroFragment.newInstance("title", "description", R.drawable.genge3, Color.parseColor("#3F51B5")));
 
 
@@ -49,7 +49,7 @@ public class Appintro extends AppIntro {
     @Override
     public void onDonePressed() {
         // Do something when users tap on Done button.
-        Intent done = new Intent(Appintro.this,Natahome.class);
+        Intent done = new Intent(Appintro.this,Login.class);
         startActivity(done);
     }
 }
