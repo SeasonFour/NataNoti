@@ -7,13 +7,15 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+import com.rey.material.widget.Button;
+
+
 
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.parse.Parse;
 import com.parse.ParseObject;
+import com.rey.material.widget.EditText;
 
 public class Journalcreate extends AppCompatActivity {
 
@@ -23,7 +25,7 @@ public class Journalcreate extends AppCompatActivity {
     private FloatingActionButton fab3;
     String journalTitle;
     String journalCompose;
-
+    private Journaldata journaldata;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,9 +41,9 @@ public class Journalcreate extends AppCompatActivity {
         Parse.initialize(this, "GDqpaudUzxIubXTzJTXko0i062wWxqLK1AJSzD2K", "KHiJQsUdQYQcZVtxTCuFM6MmbQGKcIGEW1idXmC0");
 
         //Parse test
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();
+        //ParseObject testObject = new ParseObject("TestObject");
+       // testObject.put("foo", "bar");
+        //testObject.saveInBackground();
 
         final EditText jTitle=(EditText)findViewById(R.id.journal_title);
         final EditText jCompose=(EditText)findViewById(R.id.journal_compose);
@@ -52,8 +54,8 @@ public class Journalcreate extends AppCompatActivity {
         fab3 =(com.github.clans.fab.FloatingActionButton)findViewById(R.id.fab3);
 
         //Text to string
-        journalTitle= jTitle.getText().toString().trim();
-        journalCompose=jCompose.getText().toString().trim();
+        journalTitle= jTitle.getText().toString();
+        journalCompose=jCompose.getText().toString();
 
 
         //Click listeners
@@ -73,7 +75,7 @@ public class Journalcreate extends AppCompatActivity {
         fab3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent create= new Intent(Journalcreate.this,Journalcreate.class);
+                Intent create= new Intent(Journalcreate.this,Natahome.class);
                 startActivity(create);
             }
         });
@@ -82,9 +84,16 @@ public class Journalcreate extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ParseObject journalObject = new ParseObject("journal");
+                journalObject.put("JournalTitle", journalTitle);
+                journalObject.put("JournalBody", journalCompose);
+                journalObject.saveInBackground();
 
+                Snackbar.make(v,"Journal saved to Parse",Snackbar.LENGTH_LONG).show();
             }
         });
+
+
     }
 
 }

@@ -18,6 +18,7 @@ public class Natahome extends AppCompatActivity {
     private FloatingActionButton fab1;
     private FloatingActionButton fab2;
     private FloatingActionButton fab3;
+    private FloatingActionButton fabcreate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +30,16 @@ public class Natahome extends AppCompatActivity {
         menu1 = (FloatingActionMenu)findViewById(R.id.menu1);
         fab1 =(FloatingActionButton)findViewById(R.id.fab1);//Reminder
         fab2 =(FloatingActionButton)findViewById(R.id.fab2);//View
-        fab3 =(FloatingActionButton)findViewById(R.id.fab3);//create new journal
+        fab3 =(FloatingActionButton)findViewById(R.id.fab3);//natahome
+        fabcreate=(FloatingActionButton)findViewById(R.id.fab_create);
 
+        fabcreate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent jcreate=new Intent(Natahome.this,Journalcreate.class);
+                startActivity(jcreate);
+            }
+        });
         fab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,7 +55,7 @@ public class Natahome extends AppCompatActivity {
         fab3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent create= new Intent(Natahome.this,Journalcreate.class);
+                Intent create= new Intent(Natahome.this,Natahome.class);
                 startActivity(create);
             }
         });

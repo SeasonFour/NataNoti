@@ -43,34 +43,32 @@
         android:focusableInTouchMode="false"
         android:fontFamily="serif" />
 
-    <Button
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:text="Facebook"
-        android:id="@+id/facebook"
-        android:layout_centerVertical="true"
+        android:layout_height="95dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/google_plus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="74dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/google_plus"
-        android:layout_alignEnd="@+id/google_plus"
-        android:background="#ff3b57a4"
-        android:textColor="#ffffff"
-        android:fontFamily="serif" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="65dp"
         android:text="Twitter"
         android:id="@+id/button3"
-        android:layout_below="@+id/facebook"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="43dp"
-        android:layout_alignRight="@+id/facebook"
-        android:layout_alignEnd="@+id/facebook"
+        android:layout_marginTop="114dp"
         android:textColor="#ffffff"
         android:fontFamily="serif"
-        android:background="#ff408fcc" />
+        android:background="#ff408fcc"
+        android:layout_below="@+id/google_plus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 
