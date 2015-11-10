@@ -19,9 +19,9 @@ public class Appintro extends AppIntro {
 
         // Instead of fragments, you can also use our default slide
         // Just set a title, description, background and image. AppIntro will do the rest
-        addSlide(AppIntroFragment.newInstance("Journal", "A place to save your journals", R.drawable.red, Color.parseColor("#E00032")));
-        addSlide(AppIntroFragment.newInstance("Secure data", "Your data is secure stored on the cloud", R.drawable.trec, Color.parseColor("#FF6D00")));
-        addSlide(AppIntroFragment.newInstance("title", "description", R.drawable.twern, Color.parseColor("#12C700")));
+       // addSlide(AppIntroFragment.newInstance("Journal", "A place to save your journals", R.drawable.red, Color.parseColor("#E00032")));
+      //  addSlide(AppIntroFragment.newInstance("Secure data", "Your data is secure stored on the cloud", R.drawable.trec, Color.parseColor("#FF6D00")));
+       // addSlide(AppIntroFragment.newInstance("title", "description", R.drawable.twern, Color.parseColor("#12C700")));
 
 
         // OPTIONAL METHODS
@@ -49,7 +49,7 @@ public class Appintro extends AppIntro {
     @Override
     public void onDonePressed() {
         // Do something when users tap on Done button.
-        Intent done = new Intent(Appintro.this,Twitt.class);
-        startActivity(done);
+       // Intent done = new Intent(Appintro.this,Twitt.class);
+      //  startActivity(done);
     }
 }
