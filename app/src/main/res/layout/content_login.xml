@@ -27,48 +27,25 @@
 
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:text="Google +"
-        android:id="@+id/google_plus"
-        android:layout_below="@+id/txt_logo"
-        android:layout_marginTop="108dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff"
-        android:background="#FFD04737"
-        android:focusableInTouchMode="false"
-        android:fontFamily="serif" />
+
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
-        android:layout_height="95dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/google_plus"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="200dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:text="Twitter"
-        android:id="@+id/button3"
-        android:layout_marginTop="114dp"
-        android:textColor="#ffffff"
-        android:fontFamily="serif"
-        android:background="#ff408fcc"
-        android:layout_below="@+id/google_plus"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
 
 
 

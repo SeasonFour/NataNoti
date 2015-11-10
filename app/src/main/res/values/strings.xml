@@ -7,4 +7,6 @@
     <string name="lorem_ipsum">Natahome</string>
     <string name="title_activity_journalcreate">Journalcreate</string>
     <string name="title_activity_journal">Journal</string>
+    <string name="title_activity_twitter">Twitter</string>
+    <string name="title_activity_james">james</string>
 </resources>
