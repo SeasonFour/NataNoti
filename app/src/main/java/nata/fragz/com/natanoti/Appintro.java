@@ -26,8 +26,8 @@ public class Appintro extends AppIntro {
 
         // OPTIONAL METHODS
         // Override bar/separator color
-        setBarColor(Color.parseColor("#3F51B5"));
-        setSeparatorColor(Color.parseColor("#2196F3"));
+        setBarColor(Color.parseColor("#37474F"));
+        setSeparatorColor(Color.parseColor("#3E2723"));
 
         // Hide Skip/Done button
         showSkipButton(true);
@@ -42,8 +42,9 @@ public class Appintro extends AppIntro {
     @Override
     public void onSkipPressed() {
         // Do something when users tap on Skip button.
-        Intent skip = new Intent(Appintro.this,Login.class);
+        Intent skip = new Intent(Appintro.this,Twitt.class);
         startActivity(skip);
+
     }
 
     @Override

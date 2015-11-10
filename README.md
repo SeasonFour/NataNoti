@@ -1,2 +1,2 @@
 # NataNoti
-A note taking app 
+A journal taking app 
