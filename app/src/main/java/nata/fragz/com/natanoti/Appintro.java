@@ -44,6 +44,7 @@ public class Appintro extends AppIntro {
         // Do something when users tap on Skip button.
         Intent skip = new Intent(Appintro.this,Twitt.class);
         startActivity(skip);
+
     }
 
     @Override
