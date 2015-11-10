@@ -21,10 +21,10 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                Journal_private tab1 = new Journal_private();
+                Journal_public tab1 = new Journal_public();
                 return tab1;
             case 1:
-                Journal_public tab2 = new Journal_public();
+                Journal_private tab2 = new Journal_private();
                 return tab2;
             default:
                 return null;
