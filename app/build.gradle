@@ -34,4 +34,6 @@ dependencies {
     compile('com.twitter.sdk.android:twitter:1.9.1@aar') {
         transitive = true;
     }
+    compile 'com.github.gabrielemariotti.cards:cardslib-core:2.1.0'
+    compile 'com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0'
 }
