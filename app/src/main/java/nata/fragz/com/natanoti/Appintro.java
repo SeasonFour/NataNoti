@@ -33,6 +33,8 @@ public class Appintro extends AppIntro {
         showSkipButton(true);
         showDoneButton(true);
 
+//        onCreateSupportNavigateUpTaskStack();
+
         // Turn vibration on and set intensity
         // NOTE: you will probably need to ask VIBRATE permesssion in Manifest
 //        setVibrate(true);
