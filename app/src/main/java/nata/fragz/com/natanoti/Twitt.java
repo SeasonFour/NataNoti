@@ -1,5 +1,6 @@
 package nata.fragz.com.natanoti;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +18,7 @@ import com.twitter.sdk.android.core.*;
 import com.twitter.sdk.android.core.identity.*;
 
 
-public class Twitt extends AppCompatActivity {
+public class Twitt extends Activity {
     // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
     private static final String TWITTER_KEY = "67L1nigZNjhmqF6T4nXgzZ4go";
     private static final String TWITTER_SECRET = "wsBg9wemjh9HJ8tXWDVRdj6c4VUhSgW8SsT8GbRjsPpJXWkgLD";
@@ -45,30 +46,31 @@ public class Twitt extends AppCompatActivity {
                 TwitterSession session = result.data;
                 // TODO: Remove toast and use the TwitterSession's userID
                 // with your app's user model
-//                String msg = "@" + session.getUserName() + " logged in! (#" + session.getUserId() + ")";
-//                Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
+                String msg = "@" + session.getUserName() + " logged in! (#" + session.getUserId() + ")";
+                Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
                 tojournal();
-//                Intent loki = new Intent(Twitt.this,Journal.class);
-//                startActivity(loki);
-//                startActivity(new Intent(getBaseContext(),Journal.class));
-            }
+               }
             @Override
             public void failure(TwitterException exception) {
-                tojournal();
                 Log.d("TwitterKit", "Login with Twitter failure", exception);
             }
-            private void tojournal(){
-                Intent loki = new Intent(Twitt.this,Natahome.class);
-                startActivity(loki);
-            }
+
         });
 
 
+    }
 
 
-
-
-
+    private void tojournal(){
+        Intent loki = new Intent(Twitt.this,Natahome.class);
+        startActivity(loki);
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        // Make sure that the loginButton hears the result from any
+        // Activity that it triggered.
+        loginButton.onActivityResult(requestCode, resultCode, data);
     }
 
 }
