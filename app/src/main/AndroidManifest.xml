@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -51,9 +52,16 @@ c
             android:label="@string/title_activity_twitter"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="0a922484fc4205386134a9a172f464208f3b9476" />
+
+        <activity
+            android:name=".james"
+            android:label="@string/title_activity_james"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
