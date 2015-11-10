@@ -16,7 +16,7 @@
             android:name=".Appintro"
             android:label="@string/title_activity_journal"
             android:theme="@style/AppTheme.NoActionBar" >
-c
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
